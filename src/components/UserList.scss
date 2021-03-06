@@ -1,0 +1,9 @@
+.table__row {
+  border: 1px solid #EBEBEB;
+  padding: 10px;
+
+  &--invalid {
+    background-color: #E13A44;
+    color: white;
+  }
+}
