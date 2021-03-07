@@ -1,4 +1,7 @@
-.table__row {
+.table {
+  border: 3px solid grey;
+
+  &__row {
   border: 1px solid #EBEBEB;
   padding: 10px;
 
@@ -6,4 +9,5 @@
     background-color: #E13A44;
     color: white;
   }
+}
 }

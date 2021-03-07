@@ -17,14 +17,14 @@ function App() {
         .filter(list => (list['full name']))
         .map((item, index) => ({
           id: index + 1,
-          fullName: item['full name'],
-          phone: item['phone'],
+          fullName: item['full name'].trim(),
+          phone: (item['phone'].trim().length >= 10) ? item['phone'].trim().padStart(12, '+1') : "Wrong number",
           email: item['email'],
-          age: item['age'],
+          age: +item['age'],
           experience: item['experience'],
           income: item['yearly income'],
-          hasChildren: item['has children'],
-          licenseStates: item['license states'],
+          hasChildren: item['has children'].toLowerCase(),
+          licenseStates: item['license states'].substring(0,2).toUpperCase(),
           expirationDate: item['expiration date'],
           licenseNumber: item['license number'],
       })));
