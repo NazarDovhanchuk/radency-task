@@ -1,1 +1,0 @@
-[DEMO LINK] (http://nazardovhanchuk.github.io/radency-task)
