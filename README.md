@@ -1,1 +1,1 @@
-[DEMO LINK] ( https://nazardovhanchuk.github.io/radency-task/)
+[DEMO LINK]( https://nazardovhanchuk.github.io/radency-task/)
